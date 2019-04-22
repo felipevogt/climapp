@@ -1,1 +1,77 @@
-
+.tiempo{
+	margin-top: calc(0.5em + 1vw);
+	margin-right: calc(0.5em + 1vw);
+	font-size: calc(3em + 1vw);
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-align: right;
+}
+.icono{
+	svg{
+		width: 30px;
+	}
+	color: red;
+	margin-top: calc(1em + 1vw);
+	width: calc(8em + 1vw);
+	height: auto;
+}
+.defaultSize{
+	height: calc(((100%*12)/18)/17);
+}
+.activeRow{
+	height: calc((100%/18)*6);
+}
+#ochoNEG{
+	background: var(--clima--ocho--neg);
+}
+#sieteNEG{
+	background: var(--clima--siete--neg);
+}
+#seisNEG{
+	background: var(--clima--seis--neg);
+}
+#cincoNEG{
+	background: var(--clima--cinco--neg);
+}
+#cuatroNEG{
+	background: var(--clima--cuatro--neg);
+}
+#tresNEG{
+	background: var(--clima--tres--neg);
+}
+#dosNEG{
+	background: var(--clima--dos--neg);
+}
+#unoNEG{
+	background: var(--clima--uno--neg);
+}
+#cero{
+	background: var(--clima--cero);
+}
+#uno{
+	background: var(--clima--uno);
+}
+#dos{
+	background: var(--clima--dos);
+}
+#tres{
+	background: var(--clima--tres);
+}
+#cuatro{
+	background: var(--clima--cuatro);
+}
+#cinco{
+	background: var(--clima--cinco);
+}
+#seis{
+	background: var(--clima--seis);
+}
+#siete{
+	background: var(--clima--siete);
+}
+#ocho{
+	background: var(--clima--ocho);
+}
+#nueve{
+	background: var(--clima--nueve);
+}
